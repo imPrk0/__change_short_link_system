@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
-    siteToken: 'SinkCool',
+    siteToken: 'wtfbro',
     redirectStatusCode: '301',
     linkCacheTtl: 60,
     redirectWithQuery: false,
@@ -36,6 +36,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/': {
       prerender: true,
+      redirect: 'https://imprk.me'
     },
     '/dashboard/**': {
       ssr: false,
@@ -45,7 +46,7 @@ export default defineNuxtConfig({
     },
   },
 
-  compatibilityDate: '2024-07-08',
+  compatibilityDate: '1989-06-04',
 
   nitro: {
     experimental: {
